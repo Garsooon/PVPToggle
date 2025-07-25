@@ -1,0 +1,14 @@
+name: PvPToggle
+main: org.garsooon.pvptoggle.PvPToggle
+version: 1.0
+
+commands:
+  pvptoggle:
+    description: Toggles PvP for the player
+    permission: PvPToggle
+    aliases: [pvp]
+
+permissions:
+  pvptoggle.use:
+      description: Allows PvP Toggle
+      default: true

@@ -1,0 +1,10 @@
+# PVP Toggle Configuration
+# Whether PVP is enabled by default on join
+default-pvp-enabled: false
+
+# This defines PVP status to default when player relogs
+reset-on-relog: true
+
+# List of worlds where PVP is always enabled regardless of toggle. Copy the folder name of the world.
+always-pvp-worlds:
+  - world_nether
