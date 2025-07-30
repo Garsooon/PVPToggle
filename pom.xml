@@ -39,11 +39,6 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-
-        <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -51,13 +46,6 @@
             <groupId>com.legacyminecraft.poseidon</groupId>
             <artifactId>poseidon-craftbukkit</artifactId>
             <version>1.1.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.10-R0.1-20160623.004001-36</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
