@@ -5,7 +5,7 @@ version: 1.0
 commands:
   pvptoggle:
     description: Toggles PvP for the player
-    permission: PvPToggle
+    permission: pvptoggle.use
     aliases: [pvp]
 
 permissions:
